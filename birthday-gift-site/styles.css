@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background-color: #a2d2ff;
+    color:#ffffff;
+    text-shadow: 0px 0px 2px black;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*align-items: center; its default value is stretch however height property overrules it. But if something is unnecessarily stretched your prime suspect should be align items*/
+}
+
+
+#image{
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 15px;
+}
+
+#bday-age{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date{
+    margin: 0;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift-img{
+    margin: 0 auto;
+    background-image: url(gift-cover.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url(happy.gif);
+    cursor: pointer;
+}
+
+#gift-img-hot:hover {
+    background-image: url(hot.gif);
+    cursor: pointer;
+}
+
+#gift-img-genius:hover {
+    background-image: url(genius.gif);
+    cursor: pointer;
+}
+
+#gift-img-badass:hover {
+    background-image: url(badass.gif);
+    cursor: pointer;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+#gift-img-cheers:hover {
+    background-image: url(cheers.gif);
+    cursor: pointer;
+}
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a{
+    color: white;
+}
